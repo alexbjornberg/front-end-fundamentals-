@@ -1,0 +1,50 @@
+body {
+ margin: 1.5rem;
+}
+
+
+/* text styles */
+
+
+a {
+   
+    color: black;
+    
+   
+}
+
+/* Header */
+
+.logo {
+  
+  width: 20%;
+ 
+  }
+
+
+.site-nav {
+    display: flex;
+    
+}
+
+.site-nav ul {
+    list-style: none;
+    padding-left:0;
+    display: flex;
+}
+
+.site-nav li {
+    margin-left:3rem; 
+}
+
+
+
+footer {
+    margin-top: 3 rem;
+    border-top : 1px solid black;
+
+}
+
+.main-image{
+    width:40%
+}
