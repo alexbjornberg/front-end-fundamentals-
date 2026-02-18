@@ -1,10 +1,11 @@
 body {
  margin: 1.5rem;
- 
+ background-color:;
 }
 
 main {
     margin-bottom: 10rem;
+   
 }
 
 
@@ -19,7 +20,7 @@ a {
 }
 
 /* Header */
-.header {
+header {
    
 }
 
@@ -29,6 +30,8 @@ a {
   display: flex;
  
   }
+
+  /* main */
 
 
 .site-nav {
@@ -50,15 +53,55 @@ a {
 }
 
 
+h1 {
+    grid-area: header;
+}
+
+
+.main-image{
+    
+    width:20%;
+    
+}
+
+.products {
+
+ 
+    width:70%;
+    
+     background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ grid-area: main;
+  
+
+
+}
+
+.shirts{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+     "main main . sidebar"
+      "main main . sidebar"
+       "main main . sidebar"
+        "main main . sidebar"
+         "main main . sidebar"
+         "main main . sidebar"
+    "footer footer footer footer";
+
+}
+
+/* footer */
 
 footer {
     margin-top: 3 rem;
     border-top : 1px solid black;
+    
 
 }
 
-.main-image{
-    
-    width:20%
-    
-}
+
+ aside {
+    grid-area: sidebar;
+ }
