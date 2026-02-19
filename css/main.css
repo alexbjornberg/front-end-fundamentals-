@@ -1,6 +1,6 @@
 body {
  margin: 1.5rem;
- background-color:;
+ 
 }
 
 main {
@@ -20,9 +20,7 @@ a {
 }
 
 /* Header */
-header {
-   
-}
+
 
 .logo {
   
@@ -31,6 +29,22 @@ header {
  
   }
 
+  
+@media screen  and (max-width:420px){
+    .logo, .site-nav{
+        flex-direction: column;
+    }
+}
+
+#browse {
+    padding-left: 5rem;
+}
+
+@media screen  and (max-width:800px){
+    #browse {
+        padding-left: 2rem;
+    }
+}
   /* main */
 
 
@@ -53,9 +67,7 @@ header {
 }
 
 
-h1 {
-    grid-area: header;
-}
+
 
 
 .main-image{
@@ -68,7 +80,7 @@ h1 {
    width:90%;
         background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- grid-area: main;
+
  margin-bottom: 1rem;
 
 
@@ -79,22 +91,25 @@ h1 {
 
 
 .shirts{
-      padding-left: 10rem;
+     
     display: grid;
-    grid-template-areas:
-    "header header header header"
-    "main main . sidebar"
-     "main main . sidebar"
-      "main main . sidebar"
-       "main main . sidebar"
-        "main main . sidebar"
-         "main main . sidebar"
-         "main main . sidebar"
-    "footer footer footer footer";
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
    
    
 
 }
+@media screen  and (min-width:800px){
+    .shirts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+}
+
 
 /* footer */
 
@@ -106,6 +121,4 @@ footer {
 }
 
 
- aside {
-    grid-area: sidebar;
- }
+ 
