@@ -37,13 +37,17 @@ a {
 }
 
 #browse {
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 
-@media screen  and (max-width:800px){
+@media screen  and (min-width:800px){
     #browse {
-        padding-left: 2rem;
+        padding-left: 5rem;
     }
+}
+
+#cart {
+    justify-self: end;
 }
   /* main */
 
