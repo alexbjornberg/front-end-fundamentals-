@@ -10,6 +10,28 @@ main {
 
 
 /* text styles */
+h1 {
+	font-family: "Geologica", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+h2 {
+	font-family: "Geologica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+p,
+a, 
+li,
+small {
+     
+	font-family: "Geologica", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
 
 
 a {
@@ -20,12 +42,18 @@ a {
 }
 
 /* Header */
+header  {
+    	position: sticky;
+	top: 0;
+	background-color: white;
+	margin-bottom: 6vh;
+}
 
 
 .logo {
   
   width:50px;
-  display: flex;
+ 
  
   }
 
@@ -46,21 +74,20 @@ a {
     }
 }
 
-#cart {
-    justify-self: end;
-}
+
   /* main */
 
 
 .site-nav {
     display: flex;
-    
+  
 }
 
 .site-nav ul {
     list-style: none;
     padding-left:0;
     display: flex;
+    flex-grow: 1;
    
 }
 
@@ -68,6 +95,11 @@ a {
     margin-left:3rem; 
     font-size: 22px;
     align-items:baseline;
+}
+
+.site.nav li:last-child{
+    margin-left: auto;
+    margin-right: 3vw;
 }
 
 
@@ -115,13 +147,61 @@ a {
 }
 
 
+/* product specific page */
+  .img {
+     border: 2px solid black;
+     display: block;
+  margin: auto;
+  width:60%
+  
+  }
+  
+  .box {
+    display: block;
+  margin: auto;
+    height: 1600px;
+    width: 1400px;
+    background-color:whitesmoke;
+  }
+ .button{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height:50px; 
+  width:180px;
+  background-color: aqua;
+  border-radius: 20px;
+
+  margin-left: 2rem;
+  font-size: 20px;
+ }
+ .button a {
+    text-decoration: none;
+ }
+
+
+  .kitheader{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+
+
+.specifications {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+
 /* footer */
 
 footer {
     margin-top: 3 rem;
     border-top : 1px solid black;
     
-
+ 
 }
 
 
