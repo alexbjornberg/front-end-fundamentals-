@@ -31,6 +31,7 @@ small {
 	font-family: "Geologica", sans-serif;
 	font-weight: 200;
 	font-style: normal;
+    text-decoration: none;
 }
 
 
@@ -88,6 +89,7 @@ header  {
     padding-left:0;
     display: flex;
     flex-grow: 1;
+    
    
 }
 
@@ -122,6 +124,7 @@ header  {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
  margin-bottom: 1rem;
+ margin-top: 1rem;
 
 
 }
@@ -141,6 +144,15 @@ header  {
    
 
 }
+
+
+.addtocart {
+ 
+    width: 45%;
+   
+ }
+
+ 
 @media screen  and (min-width:800px){
     .shirts {
     display: grid;
@@ -167,23 +179,8 @@ header  {
     width: 1400px;
     background-color:whitesmoke;
   }
- .button{
-     display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height:50px; 
-  width:180px;
-  background-color: aqua;
-  border-radius: 20px;
-
-  margin-left: 2rem;
-  font-size: 20px;
- }
- .button a {
-    text-decoration: none;
- }
-
+ 
+ 
 
   .kitheader{
     text-align: center;
@@ -199,6 +196,8 @@ header  {
 }
 
 
+
+
 /* footer */
 
 footer {
@@ -209,4 +208,9 @@ footer {
 }
 
 
- 
+ .cart-grid {
+     
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+ }
