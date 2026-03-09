@@ -23,6 +23,7 @@ function saveToCart(e) {
   const item = {
     id: this.dataset.id,
     img: this.dataset.img,
+    
   };
 
 
