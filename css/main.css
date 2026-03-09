@@ -131,14 +131,7 @@ header  {
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* @media screen  and (max-width:420px){
-    .featured{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 90%;
 
-    }
-} */
 
 
 .products {
@@ -255,6 +248,26 @@ header  {
 }
 }
 
+
+.ad {
+width: 1608px;
+
+    
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 1608px;
+}
+
+.adtext {
+      position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
 
 
 /* footer */
