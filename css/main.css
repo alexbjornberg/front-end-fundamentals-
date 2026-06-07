@@ -147,6 +147,7 @@ header  {
 .ad {
 width: 100%;
 
+
     
 }
 .container {
@@ -164,6 +165,13 @@ width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 4vw;
+  color: white;
+  display: block;
+  margin: auto;
+    height: 90px;
+    width: 800px;
+    background-color:black;
+    
 }
 
 
